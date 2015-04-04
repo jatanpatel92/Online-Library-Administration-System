@@ -1,0 +1,44 @@
+<%-- 
+    Document   : chkout
+    Created on : Oct 31, 2014, 3:42:37 PM
+    Author     : Jatan
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Check Out</title>
+        <link rel="stylesheet" 	type="text/css" href="style.css">
+        <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <center>
+        <h1>Check Out</h1>
+        
+        <form id="form2" method="get" action="chkout">
+
+		<div class="form-row">
+			<span class="label"> Book ID/ISBN : </span> <input type="text" name="bookid">
+		</div>
+                <br>
+                <br>
+		<div class="form-row">
+			<span class="label"> Branch ID : </span> <input type="text" name="branchid">
+		</div>
+                <br>
+                <br>
+		<div class="form-row">
+			<span class="label"> Card No : </span> <input type="text" name="cardno">
+		</div>
+                <br>
+                <br>
+		<div class="form-row">
+			<input class="submit" type="submit" value="Check Out">
+		</div>
+	</form>
+        </center>
+    </body>
+</html>
